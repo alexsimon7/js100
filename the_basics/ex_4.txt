@@ -1,0 +1,3 @@
+The code 'console.log('5'+10);' concatenates to '510' instead of adding to 15 because implicit coercion. This means
+that JS forces the number 10 into a string-type due to the fact that the previous item, '5', is a string. The strings
+then concatenate to '510'.

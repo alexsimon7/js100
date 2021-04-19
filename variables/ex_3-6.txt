@@ -1,0 +1,17 @@
+3. The program in problem 3 will return an error because 'foo' is defined within a block and thus cannot be accessed
+   outside the block. This is due to the fact that 'let' and 'const' variables have block scope.
+
+4. The code in problem 4 will throw an error due to line 6 which attempts to reassign a value to a const variable
+   which is defined in line 1. The program will log line 2-4 before the error.
+
+5. The code in problem 5 will throw an error when, on line 3, the program attempts to assign foo for a second time
+   using 'let'. 
+   corrected answer: The above let error would not occur because line 2 starts a new block creating a new scope for
+		     'let' variables. In line 3, foo is set to 'qux" within that block. However, upon exiting the 
+		     block on line 4, foo from line 1 ('bar") comes back into scope and is logged in line 6.
+
+6. No, the code in problem 6 will not throw an error. The second time FOO is set (on line 3) it is done so within
+   a new scope. That scope is closed on line 4, and FOO from line 1 is logged on line 6.
+
+***If problem 5 is run without the second 'let', foo is reassigned in line 3 and logs 'qux' in line 6.
+   In problem 6, if 'const' is not used a second time, the program throws a 'reassigning a constant' error.

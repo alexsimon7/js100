@@ -1,0 +1,7 @@
+10. false because strings are different in that one has a capitalized F while the other does not
+11. The following expression evalutes to 3 because parseInt() returns all integer characters and stops at the first
+non-integer character, or the '.' in this case.
+12. original answer: NaN (had thought boolean comparisons were not applicable to strings)
+    corrected answer: When comparing numbers that are strings, JS compares character by character. Here, JS
+    looks at the '1' in the '12' and compares it to the '9' in the second number. Because 1 is indeed less than
+    9, the expression returns true.  

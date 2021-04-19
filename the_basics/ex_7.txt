@@ -1,0 +1,10 @@
+Original answer:
+
+Yes, an error will occur when trying to access an array element with an index that is greater or equal to the
+length of an array because indexing for an array starts at the number 0 for the first slot rather than number one.
+Thus, an index location of 3 would point to the fourth element which does not exist in this array and is outside the 
+index.
+
+Corrected answer:
+Unlike Python, when attempting to index outside and array in JS, JS will return undefined. Anything outside of 
+index 0, 1, or 2 will return undefined.
