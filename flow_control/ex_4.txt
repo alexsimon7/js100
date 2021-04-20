@@ -1,0 +1,2 @@
+4. The program logs 'Product2', 'Product3', and then 'Product not found!' because it does not include break
+statements after each of the 'cases'. 

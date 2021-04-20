@@ -1,0 +1,2 @@
+4. The function logs nothing to console. The function ends with the return on line 3 (returning undefined).
+5. The function logs nothing to console. The function ends with the return on line 2 (returning 'Yipee !!!!').

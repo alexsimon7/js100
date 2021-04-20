@@ -1,0 +1,1 @@
+6. The code should return 'Not Empty' because '([])' is truthy.

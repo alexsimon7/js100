@@ -1,0 +1,4 @@
+1. This function logs 1 to console. While a function can mutate a variable, because 'let' is used to define 'bar'
+   within the function, this creates a seperate version of 'bar' only in the function.  Accordingly, the console
+   logs the global bar.
+   
