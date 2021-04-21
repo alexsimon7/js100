@@ -1,0 +1,8 @@
+3. This code infinitly loops because the conditional part of the 'while' loop assigns counter to 1 each loop rather
+than test whether counter equals 1.  The assignment 'counter = 1' is truthy, meaning the condition of the 'while' 
+loop is always true. Further, because of the reassignement of counter to 1 every loop, the code never progresses its
+counter past the value of 2. Accordingly, the code never reaches the break statement in the nested 'if' statement.
+
+4. There is no error in this code because all three requirements for a 'for' loop are present: the initialization,
+condition, and increment(even though the increment does not appear above in the for statement, it does appear in 
+the code block below). The code would log 1, 2, 3, 4, 5.
