@@ -1,0 +1,5 @@
+9. console.log(foo.a) logs 'hi'; console.log(qux) logs 'hello'. This foo.a was mutated because objects are mutable
+   while strings are not.
+
+10. Primative Values: 1, 2, 'a', 'b', 'false', null = 6
+    Objects: ['b', false], ['a', ['b', false]], [1, 2, ['a', ['b', false]], null, {}], {} = 4

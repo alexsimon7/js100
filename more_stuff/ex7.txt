@@ -1,0 +1,1 @@
+7. Exception handling is a way to prevent code from throwing a predicatable error.

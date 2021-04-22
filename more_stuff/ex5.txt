@@ -1,0 +1,5 @@
+5. The function takes a string, splits into an ordered list of substring in an array (via .split), reverses that
+   array (via .reverse), then iterates over that array creating a new array listing the length of each substring
+   (via the .map function). The function then returns that array.
+
+notes: It also assume that a single space deliniates the words in the original string (via the (' ') in the .split)

@@ -1,0 +1,5 @@
+1. person.name; or person['name'];
+2. '1', 'hello world', 'true'
+
+notes: For problem 2, all listed keys are valid for an object because JavaScript coerces non-string key values to
+strings.

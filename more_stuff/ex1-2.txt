@@ -1,0 +1,4 @@
+1. The code logs [1, 4, 3] because of aliasing (meaning that both array1 and array2 reference the same array in 
+memory).
+
+2. The following error indicates that the code has failed to define the variable 'greeting'.
