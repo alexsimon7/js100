@@ -1,0 +1,2 @@
+10. 'y++' returns the previous value before incrementing. Accordingly, it returns a coerced 5 (++ coerces the string
+into a number).
