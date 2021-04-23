@@ -1,0 +1,4 @@
+The difference between the two code snippets is that the first is 'while' loop and the second is a 'do/while' loop. The first
+checks the while condition before executing the code. The second runs the 'do' code block before checking the while condition.
+Practically, this means that the 'do/while' is guaranteed to run the 'do' block once, whereas the 'while' may never run if the
+while condition is not met.

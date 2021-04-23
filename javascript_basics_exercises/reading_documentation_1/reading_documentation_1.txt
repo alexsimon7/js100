@@ -1,0 +1,17 @@
+1. The website developer.mozilla.org/en-US/docs/Web/JavaScript.
+2. JS does have a method to lowercase a string (.toLowerCase()).
+3. JS does not have a method to capitalize the first letter of a string.
+4. We can 'and' by taking the array name and typing a bracketed position (0-n) next to it. Here,
+   ['fish', 'and', 'chips][1].
+5. If we try and access and index outside the scope of the array, 'undefined' will be returned.
+6. Line 3 returns 'palm tree' (the length, 4, -1 position of trees) and Line 5 returns 'sequoia' (the length, 4, -1
+   position of trees after 'palm tree' has been removed with .pop).
+7. typeof 23.5 returns 'number', typeof 'Call me Ishmael' returns 'string', typeof false returns 'boolean', typeof
+   0 returns 'number', typeof null returns 'object', typeof undefined returns 'undefined'.
+8. typeof tweet returns 'string', typeof words returns 'object', typeof isValid returns 'boolean'.
+9. tweet.split(' ') will evaluate to ['Starting', 'to', 'get', 'the', 'hang', 'of', 'it...', '#javascript', 
+   '#launchschool']. tweet.split(' ').reverse() will reverse the above array. tweet.split(' ').reverse().join(' ')
+   will rejoin (with a space bettwen strings) the above reversed array.
+10. '8' == 8 will return a boolean of 'true' because '==' attempts to coerce and compare operands of different types.
+    '8' === 8 will return a boolean of 'false' because '===' is a strict equality operator and the two values are 
+    different types (a 'string' and a 'number').

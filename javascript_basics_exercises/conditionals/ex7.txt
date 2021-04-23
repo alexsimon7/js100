@@ -1,0 +1,1 @@
+The problem code will alway console.log('Yes!') because the statement (false || true) is truthy.

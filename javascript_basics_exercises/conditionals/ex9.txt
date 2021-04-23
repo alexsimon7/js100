@@ -1,0 +1,1 @@
+The problem code will log '$3.99' because !sale is falsy.

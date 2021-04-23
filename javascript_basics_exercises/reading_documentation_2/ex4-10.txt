@@ -1,0 +1,24 @@
+4. 4 * 5 + 3 ** 2 / 10 = 20.9 . Exponentiation (**) first, followed by multiplication, division, remainder, addition,
+   and subtraction.
+
+5. Date.now() returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
+
+6. Date.getYear returns a two digit number representing the year of a given date minus 1900.  This method no longer works for 
+   dates after the year 2000.  Instead Date.getFullYear() should be used. It provides a 4 digit year for dates between the
+   year 1000 and 9999.
+
+7. Array.prototype.join() expects one argument (a string) which will seperate any adjacent elements of an array.  If omitted,
+   the array elements will be seperated with a comma. Excess arguments are ignored.
+
+8. Strings can be joined through String.concat() or through the + operator.
+
+9. 
+
+let speedLimit = 60;
+let currentSpeed = 80;
+
+if ((currentSpeed > speedLimit) && (currentSpeed - speedLimit) > 5)) {
+ console.log('"People...Andreessen');
+}
+
+10. The error here is that the .length does not require '()' because it is a property not a method.

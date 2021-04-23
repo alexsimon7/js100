@@ -1,0 +1,8 @@
+The problem code will log:
+
+neigh
+tweet tweet
+*cricket*
+
+It does so because the 'switch' statement does not include the requisite 'break' statements to end the code. Instead of 
+stopping at line 9, the code continues to run, logging every log command after it.

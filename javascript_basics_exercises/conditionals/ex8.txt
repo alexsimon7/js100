@@ -1,0 +1,2 @@
+The problem statement will always console.log('No...') because the statement true && false is falsy. Stated differently, in
+order to be true, both operands would need to be true; because one if false it is falsy.
