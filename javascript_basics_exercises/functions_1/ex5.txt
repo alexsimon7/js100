@@ -1,0 +1,4 @@
+4. The problem will not log anything to console because the function was not invoked. To
+invole the function,line 10 should read 'multiplesOfThree()'.
+
+
