@@ -1,0 +1,1 @@
+To determine whether an value holds an array one can use the 'Array.isArray()' method.
